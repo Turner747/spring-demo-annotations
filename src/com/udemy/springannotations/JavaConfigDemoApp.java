@@ -1,14 +1,15 @@
 package com.udemy.springannotations;
 
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-public class AnnotationBeanScopeDemoApp {
+public class JavaConfigDemoApp {
 
     public static void main(String[] args) {
 
         // read config
-        ClassPathXmlApplicationContext context =
-                new ClassPathXmlApplicationContext("applicationContext.xml");
+        AnnotationConfigApplicationContext context =
+                new AnnotationConfigApplicationContext(SportConfig.class);
 
         // get bean
         Coach theCoach = context.getBean("tennisCoach", Coach.class);

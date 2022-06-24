@@ -2,6 +2,7 @@ package com.udemy.springannotations;
 
 import org.springframework.stereotype.Component;
 
+import javax.annotation.PostConstruct;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.util.ArrayList;
@@ -25,8 +26,8 @@ public class FileFortuneService implements FortuneService{
 
     private Random myRandom = new Random();
 
-    @Override
-    public String getFortune() {
+    @PostConstruct
+    private void getFortuneList(){
 
         int index = 0;
 
@@ -36,6 +37,12 @@ public class FileFortuneService implements FortuneService{
 
             ++index;
         }
+
+        System.out.println("Fortune list created from file");
+    }
+
+    @Override
+    public String getFortune() {
 
         int random = myRandom.nextInt(fortunes.size());
 

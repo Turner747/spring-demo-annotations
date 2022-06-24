@@ -1,6 +1,7 @@
 package com.udemy.springannotations;
 
 
+import org.springframework.beans.factory.DisposableBean;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Scope;
@@ -10,7 +11,8 @@ import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
 
 @Component //("thatSillyCoach")
-public class TennisCoach implements Coach {
+@Scope("prototype")
+public class TennisCoach implements Coach, DisposableBean {
 
     @Autowired
     @Qualifier("randomFortuneService")
@@ -57,5 +59,10 @@ public class TennisCoach implements Coach {
     @Override
     public String getDailyFortune() {
         return fortuneService.getFortune();
+    }
+
+    @Override
+    public void destroy() throws Exception {
+        System.out.println("Destroy method: destroy");
     }
 }

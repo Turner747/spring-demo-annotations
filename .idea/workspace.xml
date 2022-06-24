@@ -2,94 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d28835bf-6290-42a3-ac4e-b58641bed1bf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-aop-5.3.9-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-aop-5.3.9-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-aop-5.3.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-aspects-5.3.9-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-aspects-5.3.9-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-aspects-5.3.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-beans-5.3.9-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-beans-5.3.9-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-beans-5.3.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-context-5.3.9-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-context-5.3.9-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-context-5.3.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-context-indexer-5.3.9-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-context-indexer-5.3.9-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-context-indexer-5.3.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-context-support-5.3.9-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-context-support-5.3.9-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-context-support-5.3.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-core-5.3.9-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-core-5.3.9-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-core-5.3.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-expression-5.3.9-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-expression-5.3.9-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-expression-5.3.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-instrument-5.3.9-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-instrument-5.3.9-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-instrument-5.3.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-jcl-5.3.9-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-jcl-5.3.9-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-jcl-5.3.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-jdbc-5.3.9-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-jdbc-5.3.9-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-jdbc-5.3.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-jms-5.3.9-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-jms-5.3.9-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-jms-5.3.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-messaging-5.3.9-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-messaging-5.3.9-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-messaging-5.3.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-orm-5.3.9-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-orm-5.3.9-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-orm-5.3.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-oxm-5.3.9-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-oxm-5.3.9-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-oxm-5.3.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-r2dbc-5.3.9-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-r2dbc-5.3.9-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-r2dbc-5.3.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-test-5.3.9-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-test-5.3.9-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-test-5.3.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-tx-5.3.9-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-tx-5.3.9-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-tx-5.3.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-web-5.3.9-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-web-5.3.9-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-web-5.3.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-webflux-5.3.9-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-webflux-5.3.9-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-webflux-5.3.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-webmvc-5.3.9-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-webmvc-5.3.9-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-webmvc-5.3.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-websocket-5.3.9-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-websocket-5.3.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-annotations.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/udemy/springannotations/AnnotationBeanScopeDemoApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/udemy/springannotations/AnnotationDemoApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/udemy/springannotations/Coach.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/udemy/springannotations/DatabaseFortuneService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/udemy/springannotations/FileFortuneService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/udemy/springannotations/FortuneService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/udemy/springannotations/HappyFortuneService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/udemy/springannotations/LeagueCoach.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/udemy/springannotations/RESTFortuneService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/udemy/springannotations/RandomFortuneService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/udemy/springannotations/SwimCoach.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/udemy/springannotations/TennisCoach.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fortunes.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sport.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/springannotations/BaseballCoach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/springannotations/JavaConfigDemoApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/springannotations/JavaConfigPropertiesDemoApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/springannotations/MyCustomBeanProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/springannotations/NewJavaConfigDemoApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/springannotations/SadFortuneService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/udemy/springannotations/SportConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/udemy/springannotations/AnnotationBeanScopeDemoApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/springannotations/AnnotationBeanScopeDemoApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/udemy/springannotations/FileFortuneService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/springannotations/FileFortuneService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/udemy/springannotations/SwimCoach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/springannotations/SwimCoach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/udemy/springannotations/TennisCoach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/udemy/springannotations/TennisCoach.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,10 +50,11 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "/Users/joshturner/Development/Spring/spring-demos/spring-demo-annotations/src",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "settings.editor.selected.configurable": "configurable.group.build",
     "spring.configuration.checksum": "d41d8cd98f00b204e9800998ecf8427e"
   }
 }]]></component>
@@ -140,10 +66,52 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.udemy.springannotations" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.com.udemy.springannotations.AnnotationDemoApp">
+  <component name="RunManager" selected="Application.JavaConfigPropertiesDemoApp">
     <configuration name="AnnotationBeanScopeDemoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.udemy.springannotations.AnnotationBeanScopeDemoApp" />
+      <module name="spring-demo-annotations" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.udemy.springannotations.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JavaConfigDemoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.udemy.springannotations.JavaConfigDemoApp" />
+      <module name="spring-demo-annotations" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.udemy.springannotations.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JavaConfigPropertiesDemoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.udemy.springannotations.JavaConfigPropertiesDemoApp" />
+      <module name="spring-demo-annotations" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.udemy.springannotations.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NewJavaConfigDemoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.udemy.springannotations.NewJavaConfigDemoApp" />
       <module name="spring-demo-annotations" />
       <extension name="coverage">
         <pattern>
@@ -170,6 +138,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JavaConfigPropertiesDemoApp" />
+        <item itemvalue="Application.NewJavaConfigDemoApp" />
+        <item itemvalue="Application.JavaConfigDemoApp" />
         <item itemvalue="Application.com.udemy.springannotations.AnnotationDemoApp" />
         <item itemvalue="Application.AnnotationBeanScopeDemoApp" />
       </list>
@@ -184,7 +155,7 @@
       <option name="presentableId" value="Default" />
       <updated>1655636961986</updated>
       <workItem from="1655636963286" duration="123000" />
-      <workItem from="1655637253707" duration="16183000" />
+      <workItem from="1655637253707" duration="25603000" />
     </task>
     <servers />
   </component>
